@@ -16,7 +16,7 @@ pip install azure-cognitiveservices-vision-computervision
   pip install pymongo<br>
 
 # Usage
-1 Replace the sub_key and endpoint variables with your Azure Cognitive Services subscription key and endpoint.
+1 Replace the sub_key and endpoint variables with your Azure Cognitive Services subscription key and endpoint.<br>
   sub_key = "YOUR_SUBSCRIPTION_KEY"<br>
   endpoint = "YOUR_ENDPOINT"<br>
 
