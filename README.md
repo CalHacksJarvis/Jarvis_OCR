@@ -21,7 +21,7 @@ sub_key = "YOUR_SUBSCRIPTION_KEY"
 endpoint = "YOUR_ENDPOINT"
 
 
-Ensure your camera is accessible by OpenCV. Modify the camera configuration as needed:
+2 Ensure your camera is accessible by OpenCV. Modify the camera configuration as needed:
 cap = cv2.VideoCapture(0)
 
 # Run the script:
