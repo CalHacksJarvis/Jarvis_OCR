@@ -10,7 +10,7 @@ This Python script demonstrates how to perform Optical Character Recognition (OC
 
 bash
 pip install azure-cognitiveservices-vision-computervision
----Required Python Libraries: Install the necessary Python libraries such as OpenCV, Pillow (PIL), and pymongo.
+---Required Python Libraries: Install the necessary Python libraries such as OpenCV, Pillow (PIL), and pymongo.<br>
   pip install opencv-python-headless<br>
   pip install pillow<br>
   pip install pymongo<br>
@@ -21,7 +21,7 @@ pip install azure-cognitiveservices-vision-computervision
   endpoint = "YOUR_ENDPOINT"<br>
 
 
-2 Ensure your camera is accessible by OpenCV. Modify the camera configuration as needed:
+2 Ensure your camera is accessible by OpenCV. Modify the camera configuration as needed:<br>
   cap = cv2.VideoCapture(0)
 
 # Run the script:
