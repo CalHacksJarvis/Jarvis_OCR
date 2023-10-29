@@ -11,21 +11,21 @@ This Python script demonstrates how to perform Optical Character Recognition (OC
 bash
 pip install azure-cognitiveservices-vision-computervision
 ---Required Python Libraries: Install the necessary Python libraries such as OpenCV, Pillow (PIL), and pymongo.
-pip install opencv-python-headless
-pip install pillow
-pip install pymongo
+  pip install opencv-python-headless
+  pip install pillow
+  pip install pymongo
 
 # Usage
 1 Replace the sub_key and endpoint variables with your Azure Cognitive Services subscription key and endpoint.
-sub_key = "YOUR_SUBSCRIPTION_KEY"
-endpoint = "YOUR_ENDPOINT"
+  sub_key = "YOUR_SUBSCRIPTION_KEY"
+  endpoint = "YOUR_ENDPOINT"
 
 
 2 Ensure your camera is accessible by OpenCV. Modify the camera configuration as needed:
-cap = cv2.VideoCapture(0)
+  cap = cv2.VideoCapture(0)
 
 # Run the script:
-python ocr_azure.py
+  python ocr_azure.py
 
 The script will capture frames from the camera, save them as image files, and perform OCR on each image using Azure Cognitive Services Computer Vision. The recognized text is saved to a file named file_input.txt.
 The recognized text will be printed to the console, and you can also access it in the file_input.txt file.
